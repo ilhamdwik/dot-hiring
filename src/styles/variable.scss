@@ -1,0 +1,17 @@
+$mainColor: rgb(238, 241, 245);
+$colorText: rgb(136, 183, 230);
+$pinkColor: #ff00cc;
+$blueColor: #333399;
+$colors: rgba(239, 246, 255, 1);
+$whiteColor: rgba(255, 255, 255, 1);
+$bg_indigo600: rgba(79, 70, 229, 1);
+$bg_indigo700: rgba(67, 56, 202, 1);
+$colorBoxShadow: rgb(135, 154, 182);;
+$bg_borderColor: rgb(80, 199, 247);
+
+@mixin buttonStyle($color) {
+    width: 100px;
+    height: 50px;
+    background-color: $color;
+    border-radius: 10px;
+}
